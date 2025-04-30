@@ -1,4 +1,4 @@
-CREATOR = "This File Is Made By @SahilModzOwner" #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
+CREATOR = "This File Is Made By @Shivamojhabot" #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
 import hashlib
 import os
 import telebot
@@ -11,12 +11,12 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 
 # Bot token
-TOKEN = '7362289727:AAE6RWfho65aJUxMyOSdvxXVBndKGx4QZcc'
+TOKEN = '7042381218:AAEDpPxNByhTo45JvA7_cu_5CcfIZmabjz8'
 bot = telebot.TeleBot(TOKEN)
 REQUEST_INTERVAL = 1
 
 # Admins list
-ADMIN_IDS = [2085082046]  # Replace with actual admin user IDs
+ADMIN_IDS = [1609362029]  # Replace with actual admin user IDs
 
 # File to store user information
 USERS_FILE = 'users.txt'
@@ -27,7 +27,7 @@ blocked_ports = [8700, 20000, 443, 17500, 9031, 20002, 20001]
 # To store running processes
 running_processes = []
 
-CREATOR = "This File Is Made By @SahilModzOwner"  #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
+CREATOR = "This File Is Made By @Shivamojhabot"  #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
 
 # Async function to run attack command
 async def run_attack_command_on_codespace(target_ip, target_port, duration):
@@ -251,4 +251,4 @@ if __name__ == "__main__":
     # Start the bot
     bot.polling(none_stop=True)
 
-CREATOR = "This File Is Made By @SahilModzOwner" #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
+CREATOR = "This File Is Made By @Shivamojhabot" #DON'T CHANGE THIS WARNA ERROR AYEGA 100%
